@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+# Developed by SB-Components
 
 import time
 from . import lcdconfig
