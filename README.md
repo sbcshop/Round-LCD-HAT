@@ -28,4 +28,4 @@ Choose Interfacing Options -> SPI -> Yes
 
 * You can also use GUI method to enable SPI Go to Menu > Preferences > Raspberry Pi Configuration > Interfaces , and enable SPI
 
-<img src="images/spi_en.png" />
+<img src="images/spi_en_gui.png" />
