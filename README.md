@@ -29,3 +29,18 @@ Choose Interfacing Options -> SPI -> Yes
 * You can also use GUI method to enable SPI Go to Menu > Preferences > Raspberry Pi Configuration > Interfaces , and enable SPI
 
 <img src="images/spi_en_gui.png" />
+
+## Testing
+
+* Stack Round LCD HAT on top of Raspberry Pi GPIO Header pins.
+*  Make Sure SPI is Enabled (Already mentioned above)
+
+### Clone Repository
+
+``` git clone https://github.com/sbcshop/Round-LCD-HAT.git ```
+
+``` cd Round-LCD-HAT ```
+Now execute demo code by running below command
+
+``` python3 demo.py ```
+
