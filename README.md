@@ -16,3 +16,16 @@ Round LCD HAT is a 1.28-inch display expansion board module of 240×240 resoluti
 |                 |                      |
 
 ### Installation
+
+### Enable I2C and Serial Interface
+
+ Open a terminal and run the following commands to enable I2C and Serial：
+
+
+* ``` sudo raspi-config ```
+
+Choose Interfacing Options -> SPI -> Yes 
+
+* You can also use GUI method to enable SPI Go to Menu > Preferences > Raspberry Pi Configuration > Interfaces , and enable SPI
+
+<img src="images/spi_en.png" />
