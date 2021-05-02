@@ -6,14 +6,17 @@ Round LCD HAT is a 1.28-inch display expansion board module of 240×240 resoluti
 
 |  Round LCD Pins |   Raspberry Pi Pins  |
 |-----------------|----------------------|
-|                 |                      |
-|                 |                      |
-|                 |                      |
-|                 |                      |
-|                 |                      |
-|                 |                      |
-|                 |                      |
-|                 |                      |
+| LCD DIN         |   GPIO10             |
+| LCD CLK         |   GPIO11             |
+| LCD DC          |   GPIO25             |
+| LCD CS          |   GPIO8              |
+| LCD RST         |   GPIO27             |
+| LCD BL          |   GPIO18             |
+| JOYSTICK UP     |   GPIO6              |
+| JOYSTICK DOWN   |   GPIO13             |
+| JOYSTICK LEFT   |   GPIO26             |
+| JOYSTICK RIGHT  |   GPIO5              |
+| JOYSTICK SELECT |   GPIO19             |
 
 ### Installation
 
