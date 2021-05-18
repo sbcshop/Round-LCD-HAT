@@ -47,3 +47,9 @@ Now execute demo code by running below command
 
 ``` python3 demo.py ```
 
+This will display a running clock on the screen.
+
+* You can also run "LcdDemo_Joystick.py" file to display image and change color of arc using attached 5 input joystick.
+
+``` python3 LcdDemo_Joystick.py ```
+
