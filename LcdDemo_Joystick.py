@@ -58,7 +58,7 @@ try:
     draw2 = ImageDraw.Draw(image2)
     
 
-    draw2.arc((1,1,237,237),0, 360, fill =(26,246,136), width=9)
+    draw2.arc((1,1,240,240),0, 360, fill =(26,246,136), width=9)
        
     draw2.text((75, 90), "Hello !", font=Font1, fill = (255,255,255))
     draw2.text((90, 138), "Welcome", font=Font2, fill = (255,255,255))
@@ -71,31 +71,31 @@ try:
 
         if GPIO.input(6) == GPIO.LOW:
             
-            draw2.arc((1,1,237,237),0, 360, fill =(0,153,255), width=9)
+            draw2.arc((1,1,240,240),0, 360, fill =(0,153,255), width=9)
             im_r2=image2.rotate(0)
             disp.ShowImage(im_r2)
 
         elif GPIO.input(13) == GPIO.LOW:
             
-            draw2.arc((1,1,237,237),0, 360, fill =(255,51,153), width=9)
+            draw2.arc((1,1,240,240),0, 360, fill =(255,51,153), width=9)
             im_r2=image2.rotate(0)
             disp.ShowImage(im_r2)
 
         elif GPIO.input(26) == GPIO.LOW:
             
-            draw2.arc((1,1,237,237),0, 360, fill =(0,204,0), width=9)
+            draw2.arc((1,1,240,240),0, 360, fill =(0,204,0), width=9)
             im_r2=image2.rotate(0)
             disp.ShowImage(im_r2)
 
         elif GPIO.input(5) == GPIO.LOW:
             
-            draw2.arc((1,1,237,237),0, 360, fill =(255,255,31), width=9)
+            draw2.arc((1,1,240,2407),0, 360, fill =(255,255,31), width=9)
             im_r2=image2.rotate(0)
             disp.ShowImage(im_r2)
 
         elif GPIO.input(19) == GPIO.LOW:
             
-            draw2.arc((1,1,237,237),0, 360, fill =(255,255,255), width=9)
+            draw2.arc((1,1,240,240),0, 360, fill =(255,255,255), width=9)
             im_r2=image2.rotate(0)
             disp.ShowImage(im_r2)
 
