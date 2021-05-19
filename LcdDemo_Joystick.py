@@ -89,7 +89,7 @@ try:
 
         elif GPIO.input(5) == GPIO.LOW:
             
-            draw2.arc((1,1,237,237),0, 360, fill =(128,0,0), width=9)
+            draw2.arc((1,1,237,237),0, 360, fill =(255,255,31), width=9)
             im_r2=image2.rotate(0)
             disp.ShowImage(im_r2)
 
